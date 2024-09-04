@@ -1,0 +1,28 @@
+/* SignUpPage.css */
+
+@media (max-width: 1024px) and (min-width: 601px) {
+    h1 {
+      font-size: 26px;
+    }
+    .chessImage {
+      width: 75px;
+      height: 75px;
+    }
+    .button {
+      font-size: 15px;
+      padding: 11px;
+    }
+    .googleButton {
+      font-size: 15px;
+      padding: 11px;
+    }
+    .loginText {
+      font-size: 13px;
+    }
+    .loginLink {
+      font-size: 13px;
+    }
+  }
+  
+  /* Other CSS rules... */
+  
