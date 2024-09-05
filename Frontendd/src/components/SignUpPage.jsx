@@ -15,6 +15,7 @@ const SignUpPage = () => {
   const handleLoginClick = () => {
     navigate('/login');
   };
+  
 
   return (
     <div style={styles.container}>
@@ -59,13 +60,14 @@ const styles = {
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    height: '80vh',
+    height: '85vh',
     backgroundColor: '#1e1e1e',
     color: '#ffffff',
     fontFamily: `'Poppins', sans-serif`,
     padding: '10px 20px',
     boxSizing: 'border-box',
     textAlign: 'center',
+    borderRadius:'10px',
   },
   registerHeading: {
     fontSize: '22px',
@@ -80,7 +82,7 @@ const styles = {
     lineHeight: '1.2',
   },
   imageContainer: {
-    marginBottom: '10px',
+    marginBottom: '1px',
   },
   chessImage: {
     width: '80px',

@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import '../css/SignupForm.css';
-import chess from '../images/chess.jpg' 
+import King from '../images/king.png'; 
+import key from '../images/key.png';
+import email from '../images/email.png';
+
 const SignupForm = () => {
   const [emailFocus, setEmailFocus] = useState(false);
   const [passwordFocus, setPasswordFocus] = useState(false);
@@ -11,7 +14,7 @@ const SignupForm = () => {
       {/* Email Input Field */}
       <div className={`form-group ${emailFocus ? 'focused' : ''}`}>
         <img
-          src={chess}
+          src={email}
           alt="Email"
           className="icon"
         />
@@ -33,7 +36,7 @@ const SignupForm = () => {
       {/* Password Input Field */}
       <div className={`form-group ${passwordFocus ? 'focused' : ''}`}>
         <img
-          src={chess}
+          src={key}
           alt="Password"
           className="icon"
         />
@@ -55,7 +58,7 @@ const SignupForm = () => {
       {/* Username Input Field */}
       <div className={`form-group ${usernameFocus ? 'focused' : ''}`}>
         <img
-          src={`${process.env.PUBLIC_URL}/addUserPhoto.png`}
+          src={King}
           alt="Username"
           className="icon"
         />
@@ -75,6 +78,18 @@ const SignupForm = () => {
         </label>
       </div>
  
+
+      <div className="form-group">
+        <input type="checkbox" id='terms' />
+        <label htmlFor='terms' >
+          Male
+        </label>
+        <input type="checkbox" id='terms' />
+        <label htmlFor='terms'>
+          Female
+        </label>
+      </div>
+
       {/* Terms and Conditions Checkbox */}
       <div className="form-group">
         <input type="checkbox" id="terms" />

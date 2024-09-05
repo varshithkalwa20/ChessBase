@@ -1,8 +1,8 @@
 .signup-form {
-  width: 100%;
+  width: 82%;
   max-width: 400px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px 20px;
   background-color: #f9f9f9;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -10,7 +10,7 @@
  
 .form-group {
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
  
 .icon {
@@ -26,12 +26,13 @@ input[type="email"],
 input[type="password"],
 input[type="text"] {
   width: 100%;
-  padding: 10px 10px 10px 40px;
+  padding: 2px 5px 9px 40px;
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
   outline: none;
 }
+
  
 input[type="email"]:focus,
 input[type="password"]:focus,
@@ -58,10 +59,11 @@ input:not(:placeholder-shown) + label {
   font-size: 12px;
   color: #66afe9;
 }
+
  
 .submit-button {
-  width: 100%;
-  padding: 10px;
+  width: 88%;
+  padding: 7px;
   font-size: 18px;
   background-color: #007bff;
   color: #fff;
@@ -81,16 +83,17 @@ input:not(:placeholder-shown) + label {
  }
 .form-group input[type="checkbox"] {
   margin-right: 10px;
+  margin-bottom: 7px;
 }
  
 .form-group label[for="terms"] {
-  margin-top: 17px;
-  font-size: 14px;
+  margin-top: 26px;
+  font-size: 12px;
   color: #333;
 }
  
 .form-group + .submit-button {
-  margin-top: 20px;
+  margin-top: -8px;
 }
 .label-hidden
  {
