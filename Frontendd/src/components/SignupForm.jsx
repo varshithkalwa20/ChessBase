@@ -55,7 +55,7 @@ const SignupForm = () => {
       {/* Username Input Field */}
       <div className={`form-group ${usernameFocus ? 'focused' : ''}`}>
         <img
-          src={`${process.env.PUBLIC_URL}/addUserPhoto.png`}
+          src={chess}
           alt="Username"
           className="icon"
         />
