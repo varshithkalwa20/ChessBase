@@ -79,15 +79,19 @@ const SignupForm = () => {
       </div>
  
 
-      <div className="form-group">
+      <div className="check">
+        <div className="gender">
         <input type="checkbox" id='terms' />
         <label htmlFor='terms' >
           Male
         </label>
+        </div>
+        <div className="gender">
         <input type="checkbox" id='terms' />
         <label htmlFor='terms'>
           Female
         </label>
+        </div>
       </div>
 
       {/* Terms and Conditions Checkbox */}
