@@ -1,18 +1,17 @@
 /* Signup Form Wrapper */
-.signup-form {
+/* .signup-form {
   width: 100%;
   max-width: 400px;
   margin: 0 auto;
-  padding: 20px;
-  background-color: #2b2b2b; /* Darker background for form contrast */
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* Enhanced shadow for better visibility */
-  color: #ffffff; /* Light text color */
-  box-sizing: border-box;
-}
+  padding: 20px; */
+  /*background-color: #2b2b2b; /* Darker background for form contrast */
+  /* border-radius: 8px; */
+ /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* Enhanced shadow for better visibility */
+ /* color: #ffffff; /* Light text color */
+ /*
 
 /* Form group - inputs, labels */
-.form-group {
+/* .form-group {
   position: relative;
   margin-bottom: 20px;
   text-align: left;
@@ -30,22 +29,22 @@
 input[type="email"],
 input[type="password"],
 input[type="text"] {
-  width: 100%;
-  padding: 10px 40px; /* Padding for space around the icon */
-  font-size: 16px;
+  width: 100%; */
+ /* padding: 10px 40px; /* Padding for space around the icon */
+  /*font-size: 16px;
   border: none; /* No border for modern look */
-  border-radius: 5px;
-  background-color: #404040; /* Darker background for inputs */
-  color: #ffffff; /* White text color */
-  outline: none;
+  /* border-radius: 5px; */
+/*  background-color: #404040; /* Darker background for inputs */
+ /* color: #ffffff; /* White text color */
+  /* outline: none;
   box-sizing: border-box;
 }
 
 input[type="email"]:focus,
 input[type="password"]:focus,
-input[type="text"]:focus {
-  background-color: #505050; /* Slightly lighter focus color */
-  box-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
+input[type="text"]:focus { */
+ /* background-color: #505050; /* Slightly lighter focus color */
+  /* box-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
 }
 
 label {
@@ -54,27 +53,27 @@ label {
   left: 40px;
   transform: translateY(-50%);
   pointer-events: none;
-  font-size: 14px;
-  color: #aaa; /* Lighter text color for labels */
-  transition: all 0.2s ease-out;
+  font-size: 14px; */
+  /*color: #aaa; /* Lighter text color for labels */
+  /* transition: all 0.2s ease-out;
 }
 
 .focused label,
 input:not(:placeholder-shown) + label {
   top: 18px;
   left: 40px;
-  font-size: 12px;
-  color: #66afe9; /* Highlighted label color */
-}
+  font-size: 12px; */
+ /* color: #66afe9; /* Highlighted label color */
+/* } */
 
 /* Submit button */
-.submit-button {
+/* .submit-button {
   width: 100%;
   padding: 10px;
-  font-size: 18px;
-  background-color: #007bff; /* Primary button color */
-  color: #ffffff; /* White text */
-  border: none;
+  font-size: 18px; */
+ /* background-color: #007bff; /* Primary button color */
+ /* color: #ffffff; /* White text */
+  /* border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.2s ease;
@@ -82,32 +81,32 @@ input:not(:placeholder-shown) + label {
 
 .submit-button:hover {
   background-color: #0056b3;
-}
+} */
 
 /* Gender checkboxes */
-.check {
+/* .check {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
   color: #fff; /* White text for labels */
-  position: relative;
+  /* position: relative;
   text-align: left;
-}
+} */
 
-.check label {
+/* .check label {
   display: flex;
   align-items: center;
-  font-size: 16px;
-  margin-right: 20px;
-  color: #ffffff; /* Ensure text color is white */
-}
+  font-size: 16px; */
+ /* margin-right: 20px; */
+  /*color: #ffffff; /* Ensure text color is white */
+/* }
 
 .check input[type="checkbox"] {
   margin-right: 10px;
-}
+} */
 
 /* Terms and Conditions */
-.terms-group {
+/* .terms-group {
   margin-bottom: 20px;
 }
 
@@ -116,22 +115,22 @@ input:not(:placeholder-shown) + label {
 }
 
 .terms-group label {
-  font-size: 14px;
-  color: #e5e5e5; /* Lighter color for secondary text */
-}
+  font-size: 14px; */
+ /* color: #e5e5e5; /* Lighter color for secondary text */
+/*}
 
 /* Responsive Design */
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .signup-form {
     max-width: 90%; /* More fluid width for tablets */
-    padding: 15px;
+    /* padding: 15px;
   }
 
   input[type="email"],
   input[type="password"],
-  input[type="text"] {
-    padding: 8px 35px; /* Reduce padding for smaller screens */
-    font-size: 14px;
+  input[type="text"] { */
+    /* padding: 8px 35px; Reduce padding for smaller screens */
+    /* font-size: 14px;
   }
 
   .submit-button {
@@ -141,16 +140,16 @@ input:not(:placeholder-shown) + label {
   .check {
     flex-direction: row;
     align-items: center; /* Ensure vertical alignment */
-    justify-content: space-around; /* Space checkboxes evenly */
-  }
+    /* justify-content: space-around; /* Space checkboxes evenly */
+  /* } */
 
-  .check label {
+  /* .check label {
     margin-bottom: 0; 
     top: 18px;
     left: 40px;
-    font-size: 12px;
-    color: #66afe9;/* Remove bottom margin */
-  }
+    font-size: 12px;  */
+    /* color: #66afe9;Remove bottom margin
+  } 
 }
 .gender{
   display: flex;
@@ -158,16 +157,16 @@ input:not(:placeholder-shown) + label {
 }
 
 @media (max-width: 480px) {
-  .signup-form {
-    max-width: 100%; /* Full width for mobile */
-    padding: 10px;
-  }
+  .signup-form { */
+    /* max-width: 100%; Full width for mobile */
+    /* padding: 10px; */
+  /* }
 
   input[type="email"],
   input[type="password"],
-  input[type="text"] {
-    padding: 6px 30px; /* Reduce padding for very small screens */
-    font-size: 14px;
+  input[type="text"] { */
+    /*padding: 6px 30px; /* Reduce padding for very small screens */
+    /* font-size: 14px;
   }
 
   .submit-button {
@@ -175,12 +174,110 @@ input:not(:placeholder-shown) + label {
   }
 
   .check {
-    flex-direction: row;
-    align-items: center; /* Ensure vertical alignment */
-    justify-content: space-around; /* Space checkboxes evenly */
-  }
+    flex-direction: row; */
+    /* align-items: center; Ensure vertical alignment */
+    /* justify-content: space-around; Space checkboxes evenly */
+  /* }
 
-  .check label {
-    margin-bottom: 0; /* Remove bottom margin */
-  }
+  .check label { */
+    /* margin-bottom: 0; Remove bottom margin */
+  /* }
+} */
+.signup-form {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+ 
+.form-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+ 
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+}
+ 
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  width: 100%;
+  padding: 10px 10px 10px 40px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+ 
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus {
+  border-color: #66afe9;
+  box-shadow: 0 0 5px rgba(102, 175, 233, 0.5);
+}
+ 
+label {
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: 16px;
+  color: #aaa;
+  transition: all 0.2s ease-out;
+}
+ 
+.focused label,
+input:not(:placeholder-shown) + label {
+  top: -10px;
+  left: 40px;
+  font-size: 12px;
+  color: #66afe9;
+}
+ 
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+ 
+.submit-button:hover {
+  background-color: #0056b3;
+}
+ .form-group{
+  display: flex;
+  flex-direction: row;
+
+ }
+.form-group input[type="checkbox"] {
+  margin-right: 10px;
+}
+ 
+.form-group label[for="terms"] {
+  margin-top: 17px;
+  font-size: 14px;
+  color: #333;
+}
+ 
+.form-group + .submit-button {
+  margin-top: 20px;
+}
+.label-hidden
+ {
+   display: none;
+ }
