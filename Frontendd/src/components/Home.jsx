@@ -122,11 +122,11 @@ const Home = () => {
             <li className="more-option">
               <a>⋮More
                 <ul className="more-menu">
-                  <li><a href="/">Profile</a></li>
+                  <li><a href="/profile">Profile</a></li>
                   <li><a href="https://en.chessbase.com/">Articles</a></li>
                   <li><a href="/friends">Friends</a></li>
                   <li><a href="/settings">Settings</a></li>
-                  <li><a href="/">Leaderboard</a></li>
+                  <li><a href="/leaderboard">Leaderboard</a></li>
                   <li><a href="/">Logout</a></li>
                   <li><a href="/">LogIn/signup</a></li>
                 </ul>

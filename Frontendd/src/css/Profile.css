@@ -1,0 +1,95 @@
+.profile-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+   
+  .profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+   
+  .profile-header.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+   
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+   
+  .profile-info {
+    text-align: right;
+  }
+   
+  .profile-details {
+    margin-bottom: 20px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+   
+  .profile-details.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+   
+  .friends-heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+   
+  .friends-list {
+    list-style: none;
+    padding: 0;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+   
+  .friends-list.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+   
+  .friends-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+   
+  .friends-list li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+    
+.friend-item {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+  transition: none !important;
+}
+ 
+.friend-item.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+ 
+.friend-photo {
+  /* ... (rest of your styles) */
+  transition: transform 0.3s ease-in-out;
+}
+ 
+.friend-item:hover .friend-photo {
+  transform: scale(1.1);
+}

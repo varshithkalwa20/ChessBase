@@ -30,6 +30,9 @@ import About from './components/About';
 import BookAClass from './components/BookAClass';
 import Settings from './components/Settings';
 import Friends from './components/Friends';
+import Profile from './components/Profile';
+import Leaderboard from './components/Leaderboard';
+// import ChessBoard from './components/ChessBoard';
 function App() {
   return (
     // <div className='App'>
@@ -44,6 +47,9 @@ function App() {
         <Route path="/BookAClass" element={<BookAClass/>} />
         <Route path="/settings" element={<Settings/>} />
         <Route path="/friends" element={<Friends/>} />
+        <Route path="/profile" element={<Profile/>} />
+        <Route path="/leaderboard" element={<Leaderboard/>} />
+        {/* <Route path="/chessboard" element={<ChessBoard/>} /> */}
       </Routes>
     
   );
